@@ -1,0 +1,137 @@
+#wrap{
+	width:100%;
+}
+body{
+	font-size:100%;
+	font-family: Garamond;
+}
+header{
+	width:100%;
+}
+header h1{
+	color:#786F6A;
+}
+header img{
+	width:85%;
+}
+#headerLeft{
+	width:30%;
+	float:left;
+}
+#headerRight{
+	width: 65%;
+	float: left;
+	margin: 2em 0 0 0;
+	padding: 0 0 0 2em;
+	background-color: #FDF7ED;
+}
+/***NAV***/
+
+.bold{font-weight: bold;}
+
+
+/***Table of Contents***/
+aside.left{
+	margin: 5em 1em 0 0;
+	width:25%;
+	float:left;
+	border: .1em solid #ccc;
+	clear:left;
+}
+aside.left h3{
+	margin-left:1em;
+	color:#ccc;
+}
+aside.left a.dark{color:black;}
+aside.left a{
+	display:block;
+	text-decoration:none;
+	color:#5d85cb;
+	font-weight:bold;
+	margin-left:1em;
+}
+aside.left a:hover{
+	color:#B87733;
+}
+
+/***Main Content***/
+section{
+	float:left;
+	margin-top:2em;
+	width:70%;
+	border:none;
+}
+
+ul{
+	list-style:none;
+}
+ul.singleLine li{
+	display: inline;
+	margin-left: 0em;
+}
+li {
+	padding: .3em;
+	margin-left:5em;
+}
+
+table{
+	width:100%;
+}
+
+td.bold{font-weight:bold;}
+.indentc02{margin-left:5em;}
+.indentc03{margin-left:8em;}
+td{
+	text-align:left;
+	vertical-align:top;
+}
+div.list{
+	margin-left:5em;
+	padding-top:.2em;
+}
+
+section.cover h1{text-align:center;}
+section.cover h2{text-align:center;}
+section.cover h3{text-align:center;}
+section.cover h4{text-align:center;}
+section.cover ul{
+	padding-left:5em;
+	margin: 5%;
+	list-style:none;
+}
+section.cover a{
+	text-decoration:none;
+	color:#5d85cb;
+}
+section.cover a:hover{
+	color:#B87733;
+}
+section.archdesc_did table td{border:none;}
+section.bioghist{margin-left:25%;}
+section.bioghist ul{
+	list-style:none;
+}
+section.archdesc-admininfo{margin-left:25%;}
+section.archdesc-scopecontent{margin-left:25%;}
+section.dsc1{margin-left:25%;}
+
+
+
+
+
+
+
+
+
+/***Hidden Lists***/
+.hide{
+	display:none;
+}
+input[type=button] {
+    color:#08233e;
+    font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+    font-size:70%;
+    /* ... other rules ... */
+    cursor:pointer;
+    margin-left:8em;
+}
