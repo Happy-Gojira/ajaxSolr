@@ -5,8 +5,8 @@ var Manager;
 
   $(function () {
     Manager = new AjaxSolr.Manager({
-      // solrUrl: 'http://solr-happygojira.rhcloud.com/eadcore/'
-      solrUrl: 'http://localhost:8983/solr/eadcore/'
+      solrUrl: 'http://solr-happygojira.rhcloud.com/eadcore/'
+      // solrUrl: 'http://localhost:8983/solr/eadcore/'
     });
 
     Manager.addWidget(new AjaxSolr.PagerWidget({
