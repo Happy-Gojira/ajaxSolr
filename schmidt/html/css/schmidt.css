@@ -89,6 +89,12 @@ div.list{
 	margin-left:5em;
 	padding-top:.2em;
 }
+div.item{
+	background-color: #F1F1F1;
+	width: 45%;
+	margin-top: 1em;
+	padding-top: .001em;
+}
 
 section.cover h1{text-align:center;}
 section.cover h2{text-align:center;}
