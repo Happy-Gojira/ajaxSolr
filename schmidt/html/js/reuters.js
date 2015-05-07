@@ -51,10 +51,10 @@ var Manager;
       facet: true,
       'facet.field': [ 'content', 'subject', 'geolocation', 'countryCodes' ],
       'facet.limit': 20,
-      'facet.mincount': 2,
+      'facet.mincount': 2, // sset to 2 to show facets with atleast 2 results
       'f.topics.facet.limit': 50,
       'f.countryCodes.facet.limit': -1,
-      'f.countryCodes.facet.mincount': -1,
+      'f.countryCodes.facet.mincount': -1, //set to -1 to show all results
       'json.nl': 'map'
     };
 
