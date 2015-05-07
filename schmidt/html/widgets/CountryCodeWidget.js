@@ -38,7 +38,7 @@ function map(){
       var data = google.visualization.arrayToDataTable(allCountryCodes);
 
       var options = {
-        region: 'US-NY',
+        region: 'US',
         displayMode: 'markers',
         resolution: 'metros',
         colorAxis: {colors: ['green', 'blue']}

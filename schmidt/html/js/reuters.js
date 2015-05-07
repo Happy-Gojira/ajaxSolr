@@ -54,7 +54,7 @@ var Manager;
       'facet.mincount': 2,
       'f.topics.facet.limit': 50,
       'f.countryCodes.facet.limit': -1,
-      'f.countryCodes.facet.mincount': 10,
+      'f.countryCodes.facet.mincount': -1,
       'json.nl': 'map'
     };
 
