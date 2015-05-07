@@ -38,9 +38,9 @@ function map(){
       var data = google.visualization.arrayToDataTable(allCountryCodes);
 
       var options = {
-        region: 'US',
+        region: '021', //US, US-NY, 019-americas
         displayMode: 'markers',
-        resolution: 'metros',
+        //resolution: 'provinces', //can be provinces, countries, or metros
         colorAxis: {colors: ['green', 'blue']}
       };
 
