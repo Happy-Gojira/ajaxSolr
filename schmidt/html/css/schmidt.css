@@ -14,6 +14,17 @@ header h1{
 header img{
 	width:85%;
 }
+header span{
+	width: 65%;
+	float:left;
+}
+header span a{
+	text-decoration:none;
+	color:#5d85cb;
+}
+header span a:hover{
+	color:#B87733;
+}
 #headerLeft{
 	width:30%;
 	float:left;
