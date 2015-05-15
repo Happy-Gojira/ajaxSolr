@@ -90,8 +90,9 @@ table{
 }
 
 td.bold{font-weight:bold;}
-.indentc02{margin-left:5em;}
-.indentc03{margin-left:8em;}
+.indentc02{margin-left:4em;}
+.indentc03{margin-left:7em;}
+.indentc04{margin-left:10em;}
 td{
 	text-align:left;
 	vertical-align:top;
@@ -101,10 +102,10 @@ div.list{
 	padding-top:.2em;
 }
 div.item{
-	background-color: #F1F1F1;
-	width: 45%;
+	background-color: #dbdbdb;
+	width: 75%;
 	margin-top: 1em;
-	padding-top: .001em;
+	padding: .001em 0 0 1em;
 }
 
 section.cover h1{text-align:center;}
