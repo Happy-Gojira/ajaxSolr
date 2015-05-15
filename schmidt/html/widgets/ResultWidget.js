@@ -65,7 +65,7 @@ facetHandler: function (facet_field, facet_value) {
       {
         snippet +='Contains: ' + doc.content + ' Stored in: ' + doc.container;
       }
-      if(doc.location && doc.label)
+      else if(doc.location && doc.label)
       {
         snippet +='Label: ' + doc.label + ' Stored in: ' + doc.location;
       }
